@@ -1,7 +1,7 @@
 # Food Consumption and CO2 Emissions Analysis
 
 ## Project Overview
-This project analyzes the relationship between food consumption across various food categories and their associated CO2 emissions. The data used comes from the `food_consumption.csv` file located in the `/data` folder.
+This project analyzes the relationship between food consumption across various food categories and their associated CO2 emissions. The data used comes from the [`food_consumption.csv`](/data/food_consumption.csv) file located in the `/data` folder.
 
 ### Goals:
 1. Identify which food category has the highest median value for consumption.
