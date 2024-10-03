@@ -10,7 +10,11 @@ This repository contains a data analysis project that examines food consumption 
 4. **Is there a statistically significant difference between poultry and fish consumption?**
 
 ### Data and Code
-The dataset used for this analysis is located in the `data/` folder. The code to perform the analysis is provided in the [food_consumption_analysis.py](food_consumption_analysis.py) file.
+The datasets used for this analysis are located in the `data/` folder:
+- `distributions.csv`
+- `food_consumption.csv`
+
+The code to perform the analysis is provided in the [food_consumption_analysis.py](food_consumption_analysis.py) file.
 
 ### Analysis Breakdown:
 1. **Data Loading and Cleaning:**
@@ -29,4 +33,4 @@ The dataset used for this analysis is located in the `data/` folder. The code to
 ### Instructions:
 To run the analysis, you will need to:
 1. Clone this repository.
-2. Ensure you have the required Python libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`.
+2. Ensure you have the required Python libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`. 
