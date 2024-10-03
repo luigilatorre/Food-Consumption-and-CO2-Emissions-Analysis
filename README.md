@@ -1,36 +1,32 @@
 # Food Consumption and CO2 Emissions Analysis
 
-## Overview
-This repository contains a data analysis project that examines food consumption and related CO2 emissions across various countries. The analysis is based on the **food_consumption.csv** dataset, and explores the relationships between different food categories and their environmental impact in terms of carbon dioxide emissions.
+## Project Overview
+This project analyzes the relationship between food consumption across various food categories and their associated CO2 emissions. The data used comes from the `food_consumption.csv` file located in the `/data` folder. The analysis is presented in the Jupyter notebook found in the `/notebooks` folder.
 
-### Key Questions Addressed:
-1. **Which food category has the highest median value of food consumption?**
-2. **What is the interquartile range (IQR) for CO2 emissions by food category?**
-3. **Which food category has the highest median CO2 emissions?**
-4. **Is there a statistically significant difference between poultry and fish consumption?**
+### Goals:
+1. Identify which food category has the highest median value for consumption.
+2. Visualize CO2 emissions by food category and find the one with the highest interquartile range (IQR).
+3. Assess whether there is a statistically significant difference between poultry and fish consumption using a permutation test.
 
-### Data and Code
-The datasets used for this analysis are located in the `data/` folder:
-- `distributions.csv`
-- `food_consumption.csv`
+## Dataset:
+- `food_consumption.csv`: Contains food consumption data by category for different countries, along with CO2 emissions data.
 
-The code to perform the analysis is provided in the [food_consumption_analysis.py](/data/food_consumption_analysis.py) file.
+## Analysis Outline:
 
-### Analysis Breakdown:
-1. **Data Loading and Cleaning:**
-   - The dataset is loaded and cleaned to prepare for analysis.
-   - Basic descriptive statistics and initial visualizations are generated.
+1. **Data Loading and Exploration**:
+   - The dataset is loaded and basic exploration is performed to understand the structure and contents.
 
-2. **Food Category Consumption:**
-   - We analyze the food consumption per category, identifying the category with the highest median consumption.
+2. **Descriptive Statistics**:
+   - Descriptive statistics for consumption metrics across food categories are generated.
 
-3. **CO2 Emissions Analysis:**
-   - Boxplots for each food category's CO2 emissions are generated, highlighting the highest IQR and median emissions.
+3. **Boxplot Visualization**:
+   - CO2 emissions for each food category are visualized using boxplots.
 
-4. **Statistical Testing:**
-   - A permutation test is conducted to determine if the difference in consumption between poultry and fish is statistically significant.
+4. **Permutation Test**:
+   - A permutation test is used to determine if the difference in consumption between poultry and fish is statistically significant.
 
-### Instructions:
-To run the analysis, you will need to:
-1. Clone this repository.
-2. Ensure you have the required Python libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`. 
+## Key Findings:
+- **Highest Consumption**: The food category with the highest median consumption is `dairy`.
+- **CO2 Emissions**: The category with the highest IQR for CO2 emissions is `beef`.
+- **Statistical Significance**: The permutation test shows that the difference in consumption between poultry and fish is statistically significant, and the null hypothesis is rejected.
+
