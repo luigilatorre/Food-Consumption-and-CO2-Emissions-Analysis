@@ -30,6 +30,3 @@ The dataset used for this analysis is located in the `data/` folder. The code to
 To run the analysis, you will need to:
 1. Clone this repository.
 2. Ensure you have the required Python libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`.
-   You can install them with:
-   ```bash
-   pip install numpy pandas matplotlib seaborn
