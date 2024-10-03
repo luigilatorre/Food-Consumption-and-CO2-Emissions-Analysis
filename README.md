@@ -14,7 +14,7 @@ The datasets used for this analysis are located in the `data/` folder:
 - `distributions.csv`
 - `food_consumption.csv`
 
-The code to perform the analysis is provided in the [food_consumption_analysis.py](food_consumption_analysis.py) file.
+The code to perform the analysis is provided in the [food_consumption_analysis.py](/data/food_consumption_analysis.py) file.
 
 ### Analysis Breakdown:
 1. **Data Loading and Cleaning:**
