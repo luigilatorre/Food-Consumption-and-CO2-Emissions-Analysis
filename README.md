@@ -31,12 +31,12 @@ This project analyzes the relationship between food consumption across various f
 - **Statistical Significance**: The permutation test shows that the difference in consumption between poultry and fish is statistically significant, and the null hypothesis is rejected.
 
 ## Python Code
-The calculations and data analysis are implemented in a Python script named `food_consumption_analysis.py`, which is located in the `/data` folder of this repository.
+The calculations and data analysis are implemented in a Python script named [`food_consumption_analysis.py`](/data/food_consumption_analysis.py), which is located in the `/data` folder of this repository.
 
 You can import the functions defined in the `food_consumption_analysis.py` file into your Jupyter notebook or other Python scripts to reproduce the analysis.
 
 ### Example Usage:
-Here is how you can use the code in the `food_consumption_analysis.py` file:
+Here is how you can use the code in the [`food_consumption_analysis.py`](/data/food_consumption_analysis.py) file:
 
 ```python
 # Importing the module
